@@ -46,6 +46,7 @@ public class ArrayPairsAreDivisibleByK {
                 }
             }
         }
+
         System.out.println(true);
     }
 
