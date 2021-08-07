@@ -9,6 +9,9 @@ package hashmap;
 // Example : Array = {56, 22, 34, 12, 78, 11, 98, 69};, k=10;
 // Pairs will be {56, 34}, {22, 78}, {12,78}, {11,69} and in this case ans will be True.
 
+// Logic : if a number n1 is divided by k giving rem x and n2 is giving y rem then n1+ n2 is divisble
+// by k if x +y =k;
+
 import java.util.HashMap;
 import java.util.Scanner;
 
