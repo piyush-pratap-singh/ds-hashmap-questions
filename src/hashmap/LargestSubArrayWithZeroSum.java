@@ -11,6 +11,9 @@ import java.util.Scanner;
 // Example : Array = {2, 8, -3, -5};
 // Answer will be 3 because sum of {8, -3, -5} will be 0 and largest.
 
+// Logic : if ith remainder mai x ayya hai aur i+k th index pai phir se x aata hai to
+// it means i+k - i ke between jo bhi number hai unka sum 0 hai.
+
 public class LargestSubArrayWithZeroSum {
 
     public static void solution(int[] arr){
